@@ -2,7 +2,8 @@ body {
   font-family: Arial, sans-serif;
 }
 
-#quiz-container, #results-container {
+#quiz-container,
+#results-container {
   max-width: 500px;
   margin: 0 auto;
   text-align: center;
@@ -24,7 +25,8 @@ body {
   cursor: pointer;
 }
 
-#submit-button, #reload-quiz {
+#submit-button,
+#reload-quiz {
   display: block;
   margin: 20px auto;
   cursor: pointer;
@@ -40,7 +42,7 @@ body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin: 0 500px;
+  margin: 0 50px;
 }
 
 .quiz-card {
